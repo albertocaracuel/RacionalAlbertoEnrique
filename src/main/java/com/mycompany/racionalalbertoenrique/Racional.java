@@ -71,15 +71,22 @@ public class Racional {
 
         System.out.println(numerador + "/" + denominador);
     }
-    
+
     public void resta(Racional x) {
         if (denominador == x.getDenominador()) {
-            this.numerador = (numerador + x.getNumerador());
+            this.numerador = (numerador - x.getNumerador());
             this.denominador = denominador;
         } else {
             this.numerador = ((numerador * x.getDenominador()) - (x.getNumerador() * denominador));
             this.denominador = (denominador * x.getDenominador());
         }
+
+        System.out.println(numerador + "/" + denominador);
+    }
+
+    public void producto(Racional x) {
+        this.numerador = numerador * x.getNumerador();
+        this.denominador = denominador * x.getDenominador();
 
         System.out.println(numerador + "/" + denominador);
     }

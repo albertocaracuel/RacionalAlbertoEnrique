@@ -24,9 +24,14 @@ public class Prueba {
         
         System.out.println("toString");
         System.out.println(r1.toString());
+        System.out.println("");
         
         System.out.println("Resta");
         r1.resta(r2);
+        System.out.println("");
+        
+        System.out.println("Multiplicación");
+        r1.producto(r2);
         System.out.println("");
         
     }
