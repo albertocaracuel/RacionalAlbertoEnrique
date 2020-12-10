@@ -10,15 +10,34 @@ package com.mycompany.racionalalbertoenrique;
  * @author alberto
  */
 public class Racional {
-    int b;
-    
-    int a;
+
+    private int numerador;
+    private int denominador;
 
     public Racional() {
-        this.b = 1;
-        this.a = 1;
+        this.numerador = 1;
+        this.denominador = 1;
+    }
+
+    public Racional(int numerador, int denominador) {
+        this.numerador = numerador;
+
+        if (denominador == 0) {
+            this.denominador = 1;
+        } else {
+            this.denominador = denominador;
+        }
+
+    }
+
+    public int getNumerador() {
+        return numerador;
+    }
+
+    public int getDenominador() {
+        return denominador;
     }
     
     
-    
+
 }
