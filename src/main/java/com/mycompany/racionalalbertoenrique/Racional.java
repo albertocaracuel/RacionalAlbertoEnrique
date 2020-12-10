@@ -37,7 +37,23 @@ public class Racional {
     public int getDenominador() {
         return denominador;
     }
+
+    public void setNumerador(int numerador) {
+        this.numerador = numerador;
+    }
+
+    public void setDenominador(int denominador){
+        
+        if (denominador == 0) {
+            this.denominador = 1;
+        } else {
+            this.denominador = denominador;
+        }
+    }
     
+    public void ImprimirPorConsola(int numerador, int denominador){
+        System.out.println("Numero racional " + numerador + "/" + denominador );
+    }
     
 
 }
