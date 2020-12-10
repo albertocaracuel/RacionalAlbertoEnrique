@@ -10,5 +10,15 @@ package com.mycompany.racionalalbertoenrique;
  * @author alberto
  */
 public class Racional {
+    int b;
+    
+    int a;
+
+    public Racional() {
+        this.b = 1;
+        this.a = 1;
+    }
+    
+    
     
 }
