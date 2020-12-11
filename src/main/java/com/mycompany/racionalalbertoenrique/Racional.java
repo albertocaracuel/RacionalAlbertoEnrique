@@ -98,4 +98,12 @@ public class Racional {
         System.out.println(numerador + "/" + denominador);
     }
 
+    public void igualdad(Racional x, Racional y) {
+        if ((x.getNumerador() + y.getDenominador()) == (x.getDenominador() + y.getNumerador())) {
+            System.out.println("Son iguales");
+        } else {
+            System.out.println("No son iguales");
+        }
+    }
+
 }

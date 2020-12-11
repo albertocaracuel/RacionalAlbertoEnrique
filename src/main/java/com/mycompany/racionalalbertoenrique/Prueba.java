@@ -37,6 +37,18 @@ public class Prueba {
         System.out.println("División");
         r1.division(r2,r1);
         System.out.println("");
+        
+        Racional r3 = new Racional(5,7);   
+        System.out.println("Igualdad");
+        r1.igualdad(r3, r3);
+        System.out.println("");
+        
+        r1.igualdad(r2, r3);
+        System.out.println("");
+        
+        r1.igualdad(r1, r3);
+        System.out.println("");
+
     }
 
 }
