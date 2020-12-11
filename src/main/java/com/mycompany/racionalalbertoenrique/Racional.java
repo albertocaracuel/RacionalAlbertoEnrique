@@ -109,7 +109,7 @@ public class Racional {
         }
     }
     
-    public void numracional(){
+    public void aleatorio(){
        Random r = new Random();
        
        this.numerador = r.nextInt();
