@@ -35,5 +35,7 @@ public class AppRacional {
         
         r.igualdad(z, k);
         
+        z.suma(k);
+        
     }
 }
