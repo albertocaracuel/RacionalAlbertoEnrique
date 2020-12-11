@@ -91,4 +91,11 @@ public class Racional {
         System.out.println(numerador + "/" + denominador);
     }
 
+    public void division(Racional x, Racional y) {
+        this.numerador = x.getNumerador() * y.getDenominador();
+        this.denominador = x.getDenominador() * y.getNumerador();
+
+        System.out.println(numerador + "/" + denominador);
+    }
+
 }

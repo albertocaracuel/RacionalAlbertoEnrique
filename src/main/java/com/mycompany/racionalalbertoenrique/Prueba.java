@@ -34,6 +34,9 @@ public class Prueba {
         r1.producto(r2);
         System.out.println("");
         
+        System.out.println("División");
+        r1.division(r2,r1);
+        System.out.println("");
     }
 
 }
