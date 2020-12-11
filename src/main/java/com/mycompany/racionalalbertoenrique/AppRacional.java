@@ -33,5 +33,7 @@ public class AppRacional {
         formateador.format(r.getNumerador());
         r.ImprimirPorConsola();
         
+        r.igualdad(z, k);
+        
     }
 }
