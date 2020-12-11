@@ -5,11 +5,14 @@
  */
 package com.mycompany.racionalalbertoenrique;
 
+import java.util.Random;
+
 /**
  *
  * @author alberto
  */
 public class Racional {
+        
 
     private int numerador;
     private int denominador;
@@ -104,6 +107,15 @@ public class Racional {
         } else {
             System.out.println("No son iguales");
         }
+    }
+    
+    public void numracional(){
+       Random r = new Random();
+       
+       this.numerador = r.nextInt();
+       this.denominador= r.nextInt() + 1;
+       
+       
     }
 
 }
